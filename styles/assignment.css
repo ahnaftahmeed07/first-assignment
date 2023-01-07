@@ -19,9 +19,10 @@
 
 /* Header and Banner */
 
-.footer{
+.footer {
     margin-top: 250px;
 }
+
 .banner-item {
     padding: 216px 230px 100px 845px;
 }
@@ -54,6 +55,7 @@
 }
 
 /* My Failures of Previous year Section */
+
 .failures {
     display: flex;
     align-items: center;
@@ -92,32 +94,37 @@ ol li {
     width: 570px;
     height: 725px;
 }
+
 /* My Plans Section */
 
-.my-plans{
+.my-plans {
     text-align: center;
     margin-bottom: 50px;
 }
-.plans-container{
+
+.plans-container {
     display: flex;
     gap: 10px;
     align-items: center;
     justify-content: space-evenly;
     margin-bottom: 230px;
 }
-.plan-title{
+
+.plan-title {
     font-weight: 700;
     font-size: 40px;
     margin-bottom: 50px;
 }
-.plan-name{
+
+.plan-name {
     font-weight: 700;
     font-size: 30px;
     text-align: center;
     margin-top: 6px;
     margin-bottom: 10px;
 }
-.plan-des{
+
+.plan-des {
     font-weight: 500;
     font-size: 25px;
     text-align: center;
@@ -127,7 +134,7 @@ ol li {
 
 /* Positive Mindset Section */
 
-.positive-mindset{
+.positive-mindset {
     width: 80%;
     height: 250px;
     background: linear-gradient(90deg, rgb(0, 95, 172) 0%, rgba(0, 95, 172, 0) 100%);
@@ -137,13 +144,15 @@ ol li {
     background-position: center;
     margin: 50px auto 50px;
 }
-.title{
+
+.title {
     font-weight: 700;
     font-size: 40px;
     color: #ffffff;
     padding: 60px 615px 25px 65px;
 }
-.btn-secondary{
+
+.btn-secondary {
     border: none;
     background-color: #ffffff;
     color: #005FAC;
@@ -154,9 +163,108 @@ ol li {
     border-radius: 5px;
     margin-left: 65px;
 }
+
+/* Extra Blog Section */
+
+.blog-section {
+    margin: 0px;
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.blog-heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.blog-heading span {
+    color: #005FAC;
+}
+
+.blog-heading h3 {
+    font-size: 38.4px;
+    font-weight: 600;
+
+}
+
+.blog-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+.blog-box {
+    width: 350px;
+    background-color: #ffffff;
+    border: 1px solid #ececec;
+    margin: 20px;
+}
+
+.blog-img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.blog-text {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-text span {
+    color: black;
+    font-size: 14.4px;
+}
+
+.blog-text .blog-title {
+    font-size: 20.8px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #272727;
+
+}
+
+.blog-text .blog-title:hover {
+    color: #f33c3c;
+
+}
+
+.blog-text p {
+    color: #9b9b9b;
+    font-size: 14.4px;
+    margin: 20px 0;
+}
+
+.blog-text a {
+    color: #0f0f0f;
+    text-decoration: none;
+
+}
+
+.blog-text a:hover {
+    color: #f33c3c;
+}
+
 /* Contact Section */
 
-.contact{
+.contact {
     display: flex;
     /* gap: 150p;
     width: 1600px;
@@ -166,14 +274,16 @@ ol li {
     background: #151414;
 
 }
-.future{
+
+.future {
     width: 485px;
     height: 317px;
     left: 230px;
     top: 2780px;
     padding: 130px 880px 130px 230px;
 }
-.subscribe{
+
+.subscribe {
     width: 325px;
     height: 204px;
     left: 1046px;
@@ -181,28 +291,32 @@ ol li {
     padding: 130px 130px;
 }
 
-.future-title{
+.future-title {
     font-weight: 700;
     font-size: 45px;
     color: #ffffff;
     margin-bottom: 15px;
 }
-.future-des{
+
+.future-des {
     font-weight: 400;
     font-size: 16px;
     color: #ffffff;
     margin-bottom: 15px;
 }
-.future a{
+
+.future a {
     text-decoration: none;
 }
-.sub-title{
+
+.sub-title {
     font-weight: 600;
     font-size: 25px;
     color: #ffffff;
     margin-bottom: 15px;
 }
-input{
+
+input {
     border: none;
     margin-bottom: 15px;
     border: 0;
@@ -210,7 +324,8 @@ input{
     padding: 18px 30px;
     border-radius: 5px;
 }
-.btn-last{
+
+.btn-last {
     border: none;
     background-color: rgb(36, 36, 234);
     color: #ffffff;
@@ -219,7 +334,4 @@ input{
     text-align: right;
     padding: 15px;
     border-radius: 5px;
-    /* margin-left: 5px; */
 }
-
-
