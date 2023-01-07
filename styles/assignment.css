@@ -19,7 +19,7 @@
 
 /* Header and Banner */
 .banner-item {
-    padding: 216px 230px 364px 845px;
+    padding: 216px 230px 100px 845px;
 }
 
 .banner-title {
@@ -91,4 +91,36 @@ ol li {
 .image {
     width: 570px;
     height: 725px;
+}
+/* My Plans Section */
+
+.my-plans{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.plans-container{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 230px;
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+.plan-name{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+.plan-des{
+    font-weight: 500;
+    font-size: 25px;
+    text-align: center;
+    color: #737272;
+
 }
