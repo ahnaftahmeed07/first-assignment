@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans';
+}
+
+.btn-primary {
+    border: none;
+    background-color: #ffffff;
+    color: #005FAC;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: 350px;
+    margin-top: 50px;
+
+}
+
+/* Header and Banner */
+.banner-item {
+    padding: 216px 230px 364px 845px;
+}
+
+.banner-title {
+    width: 525px;
+    height: 228px;
+    left: 845px;
+    top: 216px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    text-align: right;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.banner-subtitle {
+    width: 495px;
+    height: 78px;
+    left: 870px;
+    top: 460px;
+    font-style: normal;
+    line-height: 26px;
+    text-align: right;
+    color: #ffffff;
+}
+
+.header {
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+/* My Failures of Previous year Section */
+.failures {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    padding: 100px 320px;
+
+}
+
+.section-title {
+    margin-bottom: 25px;
+    color: #151414;
+    width: 288px;
+    height: 94px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+
+}
+
+.section-description {
+    margin-bottom: 30px;
+    color: #444343;
+    width: 415px;
+    height: 104px;
+
+
+
+}
+
+ol li {
+    color: #444343;
+    list-style-type: square
+}
+
+.image {
+    width: 570px;
+    height: 725px;
+}
