@@ -18,19 +18,19 @@
 }
 
 /* Header and Banner */
+
+.footer{
+    margin-top: 250px;
+}
 .banner-item {
     padding: 216px 230px 100px 845px;
 }
 
 .banner-title {
     width: 525px;
-    height: 228px;
-    left: 845px;
-    top: 216px;
     font-style: normal;
     font-weight: 700;
     font-size: 65px;
-    line-height: 76px;
     text-align: right;
     color: #ffffff;
     margin-bottom: 25px;
@@ -153,6 +153,73 @@ ol li {
     padding: 15px;
     border-radius: 5px;
     margin-left: 65px;
+}
+/* Contact Section */
+
+.contact{
+    display: flex;
+    /* gap: 150p;
+    width: 1600px;
+    height: 577px;
+    left: 0;
+    top: 2650px; */
+    background: #151414;
+
+}
+.future{
+    width: 485px;
+    height: 317px;
+    left: 230px;
+    top: 2780px;
+    padding: 130px 880px 130px 230px;
+}
+.subscribe{
+    width: 325px;
+    height: 204px;
+    left: 1046px;
+    top: 2780px;
+    padding: 130px 130px;
+}
+
+.future-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.future-des{
+    font-weight: 400;
+    font-size: 16px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.future a{
+    text-decoration: none;
+}
+.sub-title{
+    font-weight: 600;
+    font-size: 25px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+input{
+    border: none;
+    margin-bottom: 15px;
+    border: 0;
+    width: 70%;
+    padding: 18px 30px;
+    border-radius: 5px;
+}
+.btn-last{
+    border: none;
+    background-color: rgb(36, 36, 234);
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+    padding: 15px;
+    border-radius: 5px;
+    /* margin-left: 5px; */
 }
 
 
