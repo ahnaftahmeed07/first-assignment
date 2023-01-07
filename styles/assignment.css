@@ -124,3 +124,35 @@ ol li {
     color: #737272;
 
 }
+
+/* Positive Mindset Section */
+
+.positive-mindset{
+    width: 80%;
+    height: 250px;
+    background: linear-gradient(90deg, rgb(0, 95, 172) 0%, rgba(0, 95, 172, 0) 100%);
+    /* background-image: url('../images/watch.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 50px auto 50px;
+}
+.title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+    padding: 60px 615px 25px 65px;
+}
+.btn-secondary{
+    border: none;
+    background-color: #ffffff;
+    color: #005FAC;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: right;
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: 65px;
+}
+
+
